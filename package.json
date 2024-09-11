@@ -1,0 +1,46 @@
+{
+  "name": "@agile-missile/github-actions-starter",
+  "version": "0.2.2",
+  "description": "A sample package.json",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "dist/",
+    "index.js",
+    "README.md",
+    "CHANGELOG.md",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agile-Missile/github-actions-starter.git"
+  },
+  "scripts": {
+    "build": "rimraf dist && tsc -p ./tsconfig.build.json",
+    "build-release": "yarn build && rimraf ./_release && yarn pack && mkdir ./_release && tar zxvf ./package.tgz --directory ./_release && rm ./package.tgz",
+    "release": "yarn build-release && changeset publish"
+  },
+  "dependencies": {
+    "@primer/css": "17.0.1"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "0.5.0",
+    "@changesets/cli": "2.27.7",
+    "@hyperse/eslint-config-hyperse": "^1.1.3",
+    "commitizen": "4.3.0",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "^9.9.0",
+    "rimraf": "6.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com",
+    "directory": "_release/package"
+  },
+  "packageManager": "yarn@4.4.0"
+}
