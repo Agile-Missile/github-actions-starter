@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "jsx": "preserve",
+    "allowJs": false,
+    "noImplicitAny": true,
+    "noEmit": false,
+    "incremental": true,
+    "paths": {},
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext"
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["**/node_modules", "**/.*/", "dist", "build"]
+}
