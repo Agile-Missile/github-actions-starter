@@ -1,5 +1,11 @@
 # @hyperse/demo-repo
 
+## 1.0.1
+
+### Patch Changes
+
+- e30daff: published version
+
 ## 0.2.2
 
 ### Patch Changes
