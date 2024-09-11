@@ -1,5 +1,11 @@
 # @hyperse/demo-repo
 
+## 1.0.3
+
+### Patch Changes
+
+- 12d8bd3: published version
+
 ## 1.0.1
 
 ### Patch Changes
