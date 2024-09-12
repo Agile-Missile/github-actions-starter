@@ -23,7 +23,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18.x
-          registry-url: https://registry.npmjs.org/
+          registry-url: https://registry.npmjs.org
 
       - name: 📥 Monorepo install
         uses: ./.github/actions/yarn-nm-install
@@ -45,5 +45,7 @@ jobs:
           HOME: ${{ github.workspace }}
           # Allows to download / query / comment packages
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Allows to publish packages
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
           # Allows to publish packages
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
