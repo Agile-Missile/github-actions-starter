@@ -1,5 +1,11 @@
 # @hyperse/demo-repo
 
+## 1.0.7
+
+### Patch Changes
+
+- 7929cf4: fix ci
+
 ## 1.0.6
 
 ### Patch Changes
