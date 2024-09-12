@@ -1,5 +1,11 @@
 # @hyperse/demo-repo
 
+## 1.0.5
+
+### Patch Changes
+
+- 0f8782f: bump version
+
 ## 1.0.4
 
 ### Patch Changes
