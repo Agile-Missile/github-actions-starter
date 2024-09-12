@@ -1,5 +1,11 @@
 # @hyperse/demo-repo
 
+## 1.0.6
+
+### Patch Changes
+
+- fdc5b09: fxi ci
+
 ## 1.0.5
 
 ### Patch Changes
