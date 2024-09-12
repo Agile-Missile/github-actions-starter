@@ -1,5 +1,11 @@
 # @hyperse/demo-repo
 
+## 1.0.4
+
+### Patch Changes
+
+- bdd9918: bump version
+
 ## 1.0.3
 
 ### Patch Changes
