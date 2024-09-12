@@ -30,7 +30,8 @@
     "commitizen": "4.3.0",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "^9.9.0",
-    "rimraf": "6.0.1"
+    "rimraf": "6.0.1",
+    "typescript": "5.5.4"
   },
   "config": {
     "commitizen": {
