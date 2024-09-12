@@ -39,7 +39,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com",
+    "registry": "https://registry.npmjs.org",
     "directory": "_release/package"
   },
   "packageManager": "yarn@4.4.0"
