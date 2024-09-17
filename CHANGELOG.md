@@ -1,5 +1,11 @@
 # @hyperse/demo-repo
 
+## 1.0.10
+
+### Patch Changes
+
+- bde780a: bump version
+
 ## 1.0.9
 
 ### Patch Changes
