@@ -5,9 +5,9 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"@agile-missile/github-actions-starter@workspace:.":
+"@agile/github-actions-starter@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@agile-missile/github-actions-starter@workspace:."
+  resolution: "@agile/github-actions-starter@workspace:."
   dependencies:
     "@changesets/changelog-github": "npm:^0.5.0"
     "@changesets/cli": "npm:^2.27.8"
