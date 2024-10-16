@@ -21,17 +21,17 @@
     "release": "yarn build-release && changeset publish"
   },
   "dependencies": {
-    "@primer/css": "17.0.1"
+    "@primer/css": "21.4.0"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.0",
-    "@changesets/cli": "^2.27.8",
+    "@changesets/cli": "^2.27.9",
     "@hyperse/eslint-config-hyperse": "^1.1.3",
-    "commitizen": "^4.3.0",
+    "commitizen": "^4.3.1",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^9.11.0",
+    "eslint": "^9.12.0",
     "rimraf": "^6.0.1",
-    "typescript": "^5.6.2"
+    "typescript": "^5.6.3"
   },
   "config": {
     "commitizen": {
